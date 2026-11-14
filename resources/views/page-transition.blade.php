@@ -1,0 +1,12 @@
+
+<style>
+    @view-transition {
+        navigation: auto;
+    }
+
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+        animation-duration: 300ms;
+        animation-timing-function: ease-in-out;
+    }
+</style>
